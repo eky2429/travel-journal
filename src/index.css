@@ -1,0 +1,49 @@
+/*HEADER*/
+.header-bar {
+  background-color: coral;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0px;
+}
+
+.header-bar--img {
+  width: 20px;
+  height: 20px;
+}
+
+.header-bar--name {
+  color: white;
+  margin: 0px;
+}
+
+/*Card*/
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card--img {
+  margin: 20px;
+  border-radius: 10%;
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.card--top-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+}
+
+.card--location-pic {
+  width: 20px;
+  height: 20px;
+}
